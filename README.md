@@ -35,7 +35,7 @@ Sample Output:
 
 
 
-#Task 2: Digit-Class Controlled Image Generation with Conditional GAN
+##Task 2: Digit-Class Controlled Image Generation with Conditional GAN
 
 
 Objective:
