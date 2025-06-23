@@ -22,10 +22,10 @@ Key Steps:
 - Evaluated with both the default model and `deepset/roberta-base-squad2`.
 - Created a custom context to ask multiple questions.
 
-Tools: `transformers`, `torch`
+Tools: transformers`, `torch`
 
 Sample Output:
-```json
+json
 {
   "answer": "Charles Babbage",
   "score": 0.87,
@@ -41,7 +41,6 @@ Sample Output:
 Objective:
 The goal of this project is to implement a **Conditional Generative Adversarial Network (cGAN)** that generates MNIST digit images based on a given class label (0–9). This helps demonstrate how **conditioning a GAN** on class labels allows for controlled generation of specific outputs.
 
----
 
 ## 🛠️ Key Features & Architecture
 
@@ -59,7 +58,7 @@ The goal of this project is to implement a **Conditional Generative Adversarial 
   - Used `nn.Embedding` for converting labels into vectors.
   - Labels are injected into both the Generator and Discriminator.
 
----
+
 
 ## 📈 Training Setup
 
@@ -69,7 +68,6 @@ The goal of this project is to implement a **Conditional Generative Adversarial 
 - Loss Function: Binary Cross-Entropy
 - Optimizer: Adam (learning rate = 0.0002)
 
----
 
 ## 📊 Results
 
